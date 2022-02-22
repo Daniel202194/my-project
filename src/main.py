@@ -11,7 +11,7 @@ app.config['JSONIFY_PRETTYPRINT_REGULAR'] = False
 
 @app.route("/")
 def show_hello():
-    return '<p>hello world<p>'
+    return 'hello world'
 if __name__ == '__main__':
     # run the Flask RESTful API, make the server publicly available (host='0.0.0.0') on port 8080
     app.run(host='0.0.0.0', port=8080, debug=False)
